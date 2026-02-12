@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "act": 1,
+    "scene": 5,
+    "slug": "abraham-and-isaac",
+    "title": "Abraham: The Test of the Sacrifice",
+    "summary": "God tests Abraham by commanding him to sacrifice his only son, Isaac. As Isaac carries the wood for the altar, the scene mirrors Christ carrying the Cross. An angel intervenes, and a ram is provided, preserving the lineage that leads to the Rood's fulfillment.",
+    "speakers": ["GOD", "ABRAHAM", "ISAAC", "ANGEL"],
+    "on_stage": ["GOD", "ABRAHAM", "ISAAC", "ANGEL"],
+    "setting": "The Land of Moriah / The Mountain Top",
+    "geographic_link_id": "ST_JUST_PLAN",
+    "themes": ["Obedience", "Substitution", "The Burden of Wood"],
+    "props": ["A Bundle of Firewood", "A Knife", "A Ram"],
+    "page_break": true,
+    "scene_visual": "abraham_isaac_sacrifice.png",
+    "sound_fx": "mountain_wind.mp3"
+  },
+  "content": [
+    {
+      "id": "act1-s5-l1",
+      "type": "speech",
+      "character_id": "GOD",
+      "station": "Celum",
+      "cornish": "Abracham, dhy'so my a lever: / Gwra sacrifis dhy'm gans dha vab.",
+      "narrative": "Abraham, to thee I say: / Make sacrifice to me with thy son.",
+      "ref": "OM 1270-1271",
+      "font_style": "small-caps",
+      "delivery": "Testing, resonant",
+      "rhyme_scheme": "A"
+    },
+    {
+      "id": "act1-s5-l2",
+      "type": "direction",
+      "cornish": "Ysak ow ton an cun rag an sacrifis.",
+      "narrative": "Isaac carrying the wood for the sacrifice.",
+      "ref": "OM 1295a",
+      "marginalia": "The 'Cun' (Firewood) here is the symbolic weight of the future Cross.",
+      "prefiguration": {
+        "target_act": 3,
+        "target_ref": "PC 2580",
+        "description": "Isaac carrying the firewood up the mountain is the direct 'shadow' of Jesus carrying the wooden Cross up to Golgotha."
+      }
+    },
+    {
+      "id": "act1-s5-l3",
+      "type": "speech",
+      "character_id": "ISAAC",
+      "cornish": "Tas, otma an cun dhy'th dhorn; / Ple'ma an davas rag an tan?",
+      "narrative": "Father, behold the wood in thy hand; / Where is the sheep for the fire?",
+      "ref": "OM 1315-1316",
+      "delivery": "Innocent, questioning",
+      "rhyme_scheme": "B",
+      "glossary_links": {
+        "pren": "wood"
+      }
+    },
+    {
+      "id": "act1-s5-l4",
+      "type": "direction",
+      "cornish": "An El a rhydh dhorn Abracham hag a dhysquedh an hord.",
+      "narrative": "The Angel stays Abraham's hand and shows the ram.",
+      "ref": "OM 1380a",
+      "sound_fx": "angelic_intervention.wav",
+      "notes": "The ram caught in the thicket is also a symbol of Christ wearing the crown of thorns."
+    },
+    {
+      "id": "act1-s5-l5",
+      "type": "speech",
+      "character_id": "ABRAHAM",
+      "cornish": "Gordhyans dhy'so, Arluth splan! / Nans yw dhywrys dha vodd.",
+      "narrative": "Glory to Thee, bright Lord! / Now Thy will is accomplished.",
+      "ref": "OM 1395-1396",
+      "delivery": "Exultant",
+      "rhyme_scheme": "C",
+      "glossary_links": {
+        "lowena": "joy"
+      }
+    }
+  ]
+}

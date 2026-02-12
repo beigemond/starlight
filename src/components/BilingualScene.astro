@@ -1,0 +1,25 @@
+---
+const { scene } = Astro.props;
+import characters from '../data/characters.json';
+---
+
+<div class="not-content">
+  <div style="display: grid; gap: 2rem;">
+    {scene.content.map((line) => {
+      const char = characters.characters.find(c => c.id === line.character_id);
+      return (
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; border-bottom: 1px solid var(--sl-color-gray-5); padding-bottom: 1rem;">
+          <div>
+            <span style={`color: ${char?.color_hex}; font-weight: bold; font-family: var(--__sl-font-mono);`}>
+              {char?.name || 'Direction'}:
+            </span>
+            <p style="font-size: 1.1rem; margin-top: 0.5rem;">{line.cornish}</p>
+          </div>
+          <div style="font-style: italic; color: var(--sl-color-gray-3); border-left: 2px solid var(--sl-color-gray-5); padding-left: 1rem;">
+            <p>{line.narrative}</p>
+          </div>
+        </div>
+      );
+    })}
+  </div>
+</div>

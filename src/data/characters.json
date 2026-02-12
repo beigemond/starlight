@@ -1,0 +1,124 @@
+{
+  "characters": [
+    {
+      "id": "GOD",
+      "name": "An Tas Duw",
+      "title": "God the Father",
+      "role": "The Creator",
+      "color_hex": "#FFFFFF",
+      "motif_icon": "divine_sun.svg",
+      "description": "The Alpha and Omega who sets the promise of mercy in motion.",
+      "voice_type": "Commanding / Timeless"
+    },
+    {
+      "id": "ADAM",
+      "name": "Adam",
+      "title": "The First Father",
+      "role": "Protagonist / Type of Mankind",
+      "color_hex": "#8B4513",
+      "motif_icon": "spade_and_seed.svg",
+      "description": "The first man, whose exile begins the story and whose return to Paradise concludes it.",
+      "voice_type": "Baritone / Weary but Hopeful"
+    },
+    {
+      "id": "EVE",
+      "name": "Eva",
+      "title": "The Mother of All",
+      "role": "Source of Exile and Witness to Mercy",
+      "color_hex": "#2E8B57",
+      "motif_icon": "apple_and_leaf.svg",
+      "description": "The first woman, who shares in the toil of the earth and the eventual joy of the restoration.",
+      "voice_type": "Soprano / Solemn"
+    },
+    {
+      "id": "SETH",
+      "name": "Seth",
+      "title": "The Son of Adam",
+      "role": "The Messenger of the Seed",
+      "color_hex": "#4682B4",
+      "motif_icon": "three_seeds.svg",
+      "description": "Adam's son who seeks the Oil of Mercy and receives the three seeds.",
+      "voice_type": "Tenor / Youthful"
+    },
+    {
+      "id": "MOSES",
+      "name": "Moyses",
+      "title": "The Prophet",
+      "role": "Discoverer of the Rods",
+      "color_hex": "#4B0082",
+      "motif_icon": "tablet_and_rod.svg",
+      "description": "The leader who finds the three rods on Mount Tabor.",
+      "voice_type": "Elder / Authoritative"
+    },
+    {
+      "id": "DAVID",
+      "name": "Davyd",
+      "title": "The King",
+      "role": "Keeper of the Tree",
+      "color_hex": "#C0C0C0",
+      "motif_icon": "crown_and_harp.svg",
+      "description": "The king who treasures the rods and marks their growth with silver rings.",
+      "voice_type": "Regal / Musical"
+    },
+    {
+      "id": "SOLOMON",
+      "name": "Salamon",
+      "title": "The Wise King",
+      "role": "The Builder",
+      "color_hex": "#717171",
+      "motif_icon": "temple_pillar.svg",
+      "description": "The king who builds the Temple and attempts to use the holy wood as a beam.",
+      "voice_type": "Precise / Reflective"
+    },
+    {
+      "id": "MAXIMILLA",
+      "name": "Maximilla",
+      "title": "The First Martyr",
+      "role": "Prophetic Witness",
+      "color_hex": "#9370DB",
+      "motif_icon": "burning_beam.svg",
+      "description": "The woman martyred for recognizing the wood's holiness.",
+      "voice_type": "Intense / Prophetic"
+    },
+    {
+      "id": "JESUS",
+      "name": "Jhesu",
+      "title": "The Second Adam",
+      "role": "The Redeemer",
+      "color_hex": "#D4AF37",
+      "motif_icon": "glorified_cross.svg",
+      "description": "The fulfillment of the promise who dies on the Rood.",
+      "voice_type": "Resonant / Divine"
+    },
+    {
+      "id": "LUCIFER",
+      "name": "Lusefer",
+      "title": "Prince of Darkness",
+      "role": "Antagonist",
+      "color_hex": "#800000",
+      "motif_icon": "serpent_coil.svg",
+      "description": "The fallen angel who claims the souls of humanity.",
+      "voice_type": "Harsh / Prideful"
+    },
+    {
+      "id": "SMITH_WIFE",
+      "name": "Gwreg an Gov",
+      "title": "The Smith's Wife",
+      "role": "The Dark Foil",
+      "color_hex": "#FF4500",
+      "motif_icon": "hammer_and_nail.svg",
+      "description": "The cruel woman who forges the nails for the Cross.",
+      "voice_type": "Sharp / Mocking"
+    },
+    {
+      "id": "DISMAS",
+      "name": "Dismas",
+      "title": "The Penitent Thief",
+      "role": "Witness of Mercy",
+      "color_hex": "#708090",
+      "motif_icon": "broken_shackle.svg",
+      "description": "The first human to enter Paradise after the Fall.",
+      "voice_type": "Humble / Tenor"
+    }
+  ]
+}

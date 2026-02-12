@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "act": 1,
+    "scene": 2,
+    "slug": "cain-abel-and-the-curse",
+    "title": "Cain, Abel, and the First Curse",
+    "summary": "Cain and Abel offer sacrifices to God. Cain’s greed leads to the first murder, further staining the earth that Adam must till. Adam, now 930 years old, prepares for his own end.",
+    "speakers": ["CAIN", "ABEL", "GOD", "ADAM"],
+    "on_stage": ["CAIN", "ABEL", "ADAM", "EVE"],
+    "setting": "A Field outside of Paradise",
+    "geographic_link_id": "ST_JUST_PLAN",
+    "themes": ["Jealousy", "Sacrifice", "Mortality"],
+    "props": ["Sheaves of Wheat", "A Sheep", "The Jawbone"],
+    "page_break": true,
+    "scene_visual": "cain_abel_tithe.png",
+    "sound_fx": "crackling_fire.mp3"
+  },
+  "content": [
+    {
+      "id": "act1-s2-l1",
+      "type": "speech",
+      "character_id": "CAIN",
+      "station": "The Altar",
+      "cornish": "Tyller deg kyn fe devys, / Ny dhybbryl feyth ow degeys.",
+      "narrative": "Though a fair place be chosen, / My tithe shall not be eaten by faith.",
+      "ref": "OM 490-491",
+      "delivery": "Grudging, resentful",
+      "rhyme_scheme": "A",
+      "metrical_stress": "/ . / . / . /",
+      "notes": "Cain chooses the blighted corn to give to God."
+    },
+    {
+      "id": "act1-s2-l2",
+      "type": "speech",
+      "character_id": "ABEL",
+      "cornish": "Arluth, dhy'so my a gamp / an rhas-ma, dhyworth ow hampa.",
+      "narrative": "Lord, to Thee I offer / this grace, from my field.",
+      "ref": "OM 505-506",
+      "delivery": "Pious, humble",
+      "rhyme_scheme": "B",
+      "glossary_links": {
+        "rhas": "grace"
+      }
+    },
+    {
+      "id": "act1-s2-l3",
+      "type": "direction",
+      "cornish": "Kyn ow ladha Abel y vroder gans challys asen.",
+      "narrative": "Cain killing Abel his brother with the jawbone of an ass.",
+      "ref": "OM 540a",
+      "marginalia": "The first blood shed on the ground that grew from the Fall.",
+      "sound_fx": "heavy_strike.wav"
+    },
+    {
+      "id": "act1-s2-l4",
+      "type": "speech",
+      "character_id": "GOD",
+      "station": "Celum",
+      "cornish": "Ple yma Abel, dhy'th vroder? / Y woos a garm dhyworth an dor.",
+      "narrative": "Where is Abel, thy brother? / His blood cries out from the earth.",
+      "ref": "OM 575-576",
+      "font_style": "small-caps",
+      "delivery": "Judgmental",
+      "rhyme_scheme": "C",
+      "prefiguration": {
+        "target_act": 3,
+        "target_ref": "PC 2950",
+        "description": "Abel’s innocent blood crying from the earth prefigures Christ’s blood falling on the earth at the Crucifixion."
+      }
+    },
+    {
+      "id": "act1-s2-l5",
+      "type": "speech",
+      "character_id": "ADAM",
+      "station": "The Earth",
+      "cornish": "Nadhon, nans yw nownses kans / ha deg ha dew ugens blans.",
+      "narrative": "Behold, now it is nine hundred / and ten and two score years.",
+      "ref": "OM 630-631",
+      "notes": "Adam calculates his age (930 years) and realizes he is ready for the Oil of Mercy.",
+      "line_analysis": [
+        {"word": "blans", "analysis": "Mutation of 'bledhen' (years)"}
+      ]
+    }
+  ]
+}

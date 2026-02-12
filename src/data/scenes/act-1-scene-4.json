@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "act": 1,
+    "scene": 4,
+    "slug": "noah-and-the-flood",
+    "title": "Noah: The Ark and the Cleansing",
+    "summary": "God, weary of human wickedness, commands Noah to build an Ark. The world is submerged, and the rainbow serves as the first covenant, while the Rood seeds remain hidden in the earth of the Old World.",
+    "speakers": ["GOD", "NOAH", "NOAH_WIFE"],
+    "on_stage": ["GOD", "NOAH", "NOAH_WIFE", "SHEM", "HAM", "JAPHETH"],
+    "setting": "The Plains / The Rising Waters / The Ark",
+    "geographic_link_id": "ST_JUST_PLAN",
+    "themes": ["Judgment", "Covenant", "Preservation"],
+    "props": ["The Ark (Mansion)", "An Axe", "The Olive Branch"],
+    "page_break": true,
+    "scene_visual": "noahs_ark_ordinalia.png",
+    "sound_fx": "heavy_rain_and_thunder.mp3"
+  },
+  "content": [
+    {
+      "id": "act1-s4-l1",
+      "type": "speech",
+      "character_id": "GOD",
+      "station": "Celum",
+      "cornish": "Gwra dhy'so gorhel a bren, / May halli’n tays bos dyvrys.",
+      "narrative": "Make for thyself a ship of wood, / That the patriarchs may be delivered.",
+      "ref": "OM 953-954",
+      "font_style": "small-caps",
+      "delivery": "Authoritative",
+      "rhyme_scheme": "A",
+      "prefiguration": {
+        "target_act": 3,
+        "target_ref": "PC 2500",
+        "description": "Just as the 'Wood of the Ark' saves the physical world, the 'Wood of the Cross' will save the spiritual world."
+      }
+    },
+    {
+      "id": "act1-s4-l2",
+      "type": "speech",
+      "character_id": "NOAH",
+      "cornish": "Arluth, my a wra lowen / Kepar del yw dhy'th vodd.",
+      "narrative": "Lord, I will do gladly / Even as it is Thy will.",
+      "ref": "OM 965-966",
+      "delivery": "Obedient",
+      "rhyme_scheme": "B",
+      "glossary_links": {
+        "pren": "wood",
+        "lowen": "joy"
+      }
+    },
+    {
+      "id": "act1-s4-l3",
+      "type": "direction",
+      "cornish": "Noah ow cul an gorhel. An dowr a dhyu war an nor.",
+      "narrative": "Noah building the ship. The water comes upon the earth.",
+      "ref": "OM 1020a",
+      "marginalia": "In the Plen-an-Gwari, the Ark was likely a large painted 'Mansion' or a boat on wheels.",
+      "sound_fx": "waves_lapping.wav"
+    },
+    {
+      "id": "act1-s4-l4",
+      "type": "speech",
+      "character_id": "NOAH_WIFE",
+      "cornish": "An dowr a dhue yn skon! / Deun dhe'n gorhel, cowetha.",
+      "narrative": "The water comes soon! / Let us go to the ship, companions.",
+      "ref": "OM 1045-1046",
+      "delivery": "Urgent",
+      "rhyme_scheme": "C"
+    },
+    {
+      "id": "act1-s4-l5",
+      "type": "direction",
+      "cornish": "An golom a dhe gans scoren olyv.",
+      "narrative": "The dove comes with an olive branch.",
+      "ref": "OM 1130a",
+      "notes": "The olive branch is a sign of peace, mirroring the Rood seeds as a sign of future mercy."
+    }
+  ]
+}

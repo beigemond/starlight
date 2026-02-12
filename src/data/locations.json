@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "project": "Legend of the Rood",
+    "version": "1.0.0",
+    "description": "Mapping the Biblical narrative onto the Cornish landscape."
+  },
+  "amphitheatres": [
+    {
+      "id": "ST_JUST",
+      "name": "St Just Plen-an-Gwari",
+      "type": "Historical Theatre",
+      "coordinates": [50.1246, -5.6814],
+      "note": "The primary heart of Cornish drama."
+    },
+    {
+      "id": "PIRAN_ROUND",
+      "name": "Piran Round",
+      "type": "Earthwork Theatre",
+      "coordinates": [50.3541, -5.1222],
+      "note": "A massive stage for the spectacle of the Resurrection."
+    }
+  ],
+  "stage_stations": [
+    {
+      "id": "CELUM",
+      "name": "Heaven (Celum)",
+      "position": "East",
+      "description": "The high station for God and the Angels.",
+      "visual": "A gilded scaffold with a winch system."
+    },
+    {
+      "id": "INFERNUM",
+      "name": "Hell (Infernum)",
+      "position": "North",
+      "description": "The 'Hell-Mouth' where Lucifer and the devils dwell.",
+      "visual": "A gaping dragon's jaw with red lighting and smoke."
+    },
+    {
+      "id": "TEMPEL",
+      "name": "Solomon's Temple",
+      "position": "Center/Circular",
+      "description": "Where the holy wood is tested and Maximilla is martyred."
+    }
+  ],
+  "cornish_land_grants": [
+    {
+      "id": "CARNSEW",
+      "name": "Carnsew",
+      "parish": "Mabe",
+      "coordinates": [50.187, -5.418],
+      "context": "Given to the carpenters by Solomon in Act III.",
+      "significance": "A real medieval manor; its mention made the story feel local."
+    },
+    {
+      "id": "BOVALLYS",
+      "name": "Bejowans",
+      "parish": "St Just",
+      "coordinates": [50.091, -5.704],
+      "context": "Reward for the laborers in the play.",
+      "significance": "Located right next to the theatre; likely caused a cheer from the crowd."
+    },
+    {
+      "id": "PENRYN",
+      "name": "Penryn",
+      "parish": "St Gluvias",
+      "coordinates": [50.103, -5.107],
+      "context": "Associated with Glasney College.",
+      "significance": "The intellectual home where the play was written."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "act": 1,
+    "scene": 3,
+    "slug": "seths-journey-to-paradise",
+    "title": "Seth’s Journey and the Three Seeds",
+    "summary": "The dying Adam sends Seth to the gates of Eden. Seth witnesses the state of the Tree of Knowledge and receives three seeds from the Angel, which he is told to place under Adam's tongue upon his death.",
+    "speakers": ["ADAM", "SETH", "ANGEL"],
+    "on_stage": ["ADAM", "SETH", "ANGEL_CHORUS"],
+    "setting": "The Gates of Eden / Adam's Deathbed",
+    "geographic_link_id": "ST_JUST_PLAN",
+    "themes": ["Vision", "Legacy", "The Holy Wood"],
+    "props": ["The Three Seeds", "A Branch of the Tree"],
+    "page_break": true,
+    "scene_visual": "seth_at_the_gate.png",
+    "sound_fx": "celestial_hum.mp3"
+  },
+  "content": [
+    {
+      "id": "act1-s3-l1",
+      "type": "speech",
+      "character_id": "ADAM",
+      "cornish": "Seth, ow mab, ke dhe'n porthow / a Baradhys heb dregynn.",
+      "narrative": "Seth, my son, go to the gates / of Paradise without delay.",
+      "ref": "OM 700-701",
+      "delivery": "Breathless, urgent",
+      "rhyme_scheme": "A",
+      "notes": "Adam gives Seth directions to follow his own footprints, scorched into the earth from the expulsion."
+    },
+    {
+      "id": "act1-s3-l2",
+      "type": "direction",
+      "cornish": "Ena Seth a wra gweles an wedhen ha'n sarf ynni.",
+      "narrative": "Then Seth sees the tree and the serpent in it.",
+      "ref": "OM 790a",
+      "marginalia": "The tree appears dry and barkless because of the sin of mankind.",
+      "prefiguration": {
+        "target_act": 3,
+        "target_ref": "PC 2650",
+        "description": "The dry tree seen by Seth is the same wood that will become the 'dry' Cross, which only blooms again with Christ's blood."
+      }
+    },
+    {
+      "id": "act1-s3-l3",
+      "type": "speech",
+      "character_id": "ANGEL",
+      "station": "The Gate of Eden",
+      "cornish": "Kemer tri hasen a'n aval / may fe dyvrys an tusevow.",
+      "narrative": "Take three seeds of the apple / that the patriarchs may be delivered.",
+      "ref": "OM 822-823",
+      "delivery": "Commanding",
+      "rhyme_scheme": "B",
+      "glossary_links": {
+        "oyl_mersy": "oil of mercy"
+      }
+    },
+    {
+      "id": "act1-s3-l4",
+      "type": "direction",
+      "cornish": "Seth a dhe dhe'th das hag a wor an has yn y anow.",
+      "narrative": "Seth goes to his father and puts the seeds in his mouth.",
+      "ref": "OM 860a",
+      "notes": "The exact moment the Rood cycle begins within the human body."
+    },
+    {
+      "id": "act1-s3-l5",
+      "type": "speech",
+      "character_id": "ADAM",
+      "cornish": "Deg yw an has! Lowena dhybm; / Nans yw dhywrys ow bewnans.",
+      "narrative": "Fair are the seeds! Joy to me; / Now my life is accomplished.",
+      "ref": "OM 910-911",
+      "delivery": "Relieved, dying",
+      "rhyme_scheme": "C",
+      "glossary_links": {
+        "lowena": "joy",
+        "bewnans": "life"
+      }
+    }
+  ]
+}

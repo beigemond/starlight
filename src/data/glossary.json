@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "title": "Legend of the Rood: Linguistic Glossary",
+    "language_standard": "SWF-M (Standard Written Form - Middle)",
+    "description": "Specialized Middle Cornish vocabulary found in the Ordinalia and the Legend of the Rood cycle."
+  },
+  "terms": [
+    {
+      "id": "anken",
+      "word": "Anken",
+      "translation": "Grief / Sorrow / Misery",
+      "definition": "A central theme of the Fall. It describes the physical and spiritual distress Adam feels after exile.",
+      "etymology": "Common Brittonic *ancā (death/pain). Cognate with Welsh 'angeu'."
+    },
+    {
+      "id": "rhas",
+      "word": "Rhas",
+      "translation": "Grace / Virtue / Blessing",
+      "definition": "Divine favor. Often used to describe the properties of the 'Oil of Mercy' or the holiness of the Rood tree.",
+      "etymology": "Borrowed from Middle English 'grace', ultimately Latin 'gratia'."
+    },
+    {
+      "id": "oyl_mersy",
+      "word": "Oyl a Versy",
+      "translation": "Oil of Mercy",
+      "definition": "The promised spiritual healing requested by Adam at his death. In the Rood legend, this 'oil' is fulfilled by Christ's blood on the Cross.",
+      "related_id": "SETH"
+    },
+    {
+      "id": "krous",
+      "word": "Krous",
+      "translation": "Cross",
+      "definition": "The physical structure made from the Cedar, Cypress, and Pine grown from Adam's seeds.",
+      "etymology": "Latin 'crucem'."
+    },
+    {
+      "id": "lowena",
+      "word": "Lowena",
+      "translation": "Joy / Happiness / Bliss",
+      "definition": "The emotional state associated with Paradise and the Resurrection. The linguistic opposite of 'Anken'.",
+      "etymology": "Brittonic *lowen (happy)."
+    },
+    {
+      "id": "pren",
+      "word": "Pren",
+      "translation": "Wood / Timber / Tree",
+      "definition": "Often used to refer to the 'Holy Wood' throughout its various stages (rod, beam, cross).",
+      "etymology": "Brittonic *prenno- (tree)."
+    },
+    {
+      "id": "den",
+      "word": "Den",
+      "translation": "Man / Human",
+      "definition": "Used in titles like 'Map Den' (Son of Man).",
+      "etymology": "Brittonic *danios."
+    },
+    {
+      "id": "bewnans",
+      "word": "Bewnans",
+      "translation": "Life",
+      "definition": "Commonly found in titles of Cornish miracle plays (e.g., Bewnans Ke).",
+      "etymology": "Derived from 'bew' (alive)."
+    },
+    {
+      "id": "difen",
+      "word": "Difen",
+      "translation": "Prohibition / Forbidden",
+      "definition": "Specifically used in reference to the 'Forbidden Fruit' in Act I.",
+      "etymology": "From Middle Cornish 'dyfenn' (to forbid)."
+    },
+    {
+      "id": "skyans",
+      "word": "Skyans",
+      "translation": "Knowledge / Wisdom",
+      "definition": "Used regarding the 'Tree of Knowledge'.",
+      "etymology": "Brittonic *skiant."
+    }
+  ]
+}

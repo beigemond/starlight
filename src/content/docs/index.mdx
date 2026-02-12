@@ -1,40 +1,41 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+title: The Legend of the Rood
+description: A Digital Critical Edition of the Cornish Ordinalia.
+template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Explore the journey of the Holy Wood from the gates of Eden to the Cross of Calvary. A bilingual edition in Middle Cornish (SWF-M) and English.
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/houston.webp 
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Begin Reading Act I
+      link: /scenes/act-1-scene-1/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
+    - text: View Character Index
+      link: /data/characters/
+      icon: open-book
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## The Grand Cycle
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Bilingual Text" icon="pencil">
+		Compare the original Middle Cornish verse (Standard Written Form) side-by-side with modern English prose.
 	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
+	<Card title="Interactive Geography" icon="location">
+		Link scenes to real-world Cornish 'Playing Places' like St Just Plen-an-Gwari and Perran Round.
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Theological Typology" icon="magnifier">
+		Discover the 'Prefigurations' where Old Testament events mirror the life of Christ through the Rood.
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="Linguistic Glossary" icon="translate">
+		Hover over key Cornish terms like *Anken* (Grief) or *Rhas* (Grace) to see etymology and definitions.
 	</Card>
 </CardGrid>
+
+---
+
+### About this Edition
+This project is built using **Accessible Astro** and **Starlight** to ensure that the medieval heritage of Cornwall is accessible to everyone, across all devices.

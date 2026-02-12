@@ -1,26 +1,26 @@
-// @ts-check
+// astro.config.mjs
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
-// https://astro.build/config
 export default defineConfig({
-	integrations: [
-		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
-			sidebar: [
-				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
-			],
-		}),
-	],
+  integrations: [
+    starlight({
+      title: 'Legend of the Rood',
+      sidebar: [
+        { label: 'Home', link: '/' },
+        {
+          label: 'The Play (Ordinalia)',
+          // This automatically finds every .mdx file in your scenes folder
+          autogenerate: { directory: 'scenes' },
+        },
+        {
+          label: 'Reference',
+          items: [
+            { label: 'Characters', link: '/reference/characters/' },
+            { label: 'Glossary', link: '/reference/glossary/' },
+          ],
+        },
+      ],
+    }),
+  ],
 });

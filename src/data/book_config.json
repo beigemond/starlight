@@ -1,0 +1,64 @@
+{
+  "project_metadata": {
+    "title": "The Legend of the Rood",
+    "edition": "Scholarly Bilingual Edition",
+    "language_primary": "Cornish (SWF-M)",
+    "language_secondary": "English",
+    "editor": "Your Name/Gemini Collaboration"
+  },
+  "page_setup": {
+    "size": "A5",
+    "orientation": "portrait",
+    "units": "mm",
+    "dimensions": {
+      "width": 148,
+      "height": 210
+    },
+    "margins": {
+      "inner_gutter": 25,
+      "outer": 15,
+      "top": 20,
+      "bottom": 20
+    }
+  },
+  "typography": {
+    "cornish_main": {
+      "family": "Playfair Display",
+      "size": "11pt",
+      "line_height": "1.4",
+      "style": "Regular"
+    },
+    "english_translation": {
+      "family": "Inter",
+      "size": "10pt",
+      "line_height": "1.3",
+      "style": "Italic",
+      "color": "#444444"
+    },
+    "speaker_labels": {
+      "family": "Fira Code",
+      "size": "8pt",
+      "transform": "uppercase",
+      "weight": "bold"
+    },
+    "marginalia": {
+      "family": "Crimson Text",
+      "size": "8pt",
+      "color": "#666666"
+    }
+  },
+  "layout_rules": {
+    "split_type": "side-by-side",
+    "column_ratio": "1:1",
+    "show_line_numbers": true,
+    "line_number_interval": 5,
+    "page_break_on_scene": true,
+    "honor_json_page_breaks": true
+  },
+  "features": {
+    "include_glossary_appendix": true,
+    "include_character_index": true,
+    "include_geographic_map": true,
+    "generate_table_of_contents": true
+  }
+}
