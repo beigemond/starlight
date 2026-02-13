@@ -1,0 +1,23 @@
+/* src/styles/custom.css */
+
+/* Make the Cornish text look like a manuscript */
+.cornish p {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  color: var(--sl-color-white);
+}
+
+/* Style the stage directions differently */
+.stage-direction {
+  font-size: 0.9em;
+  color: var(--sl-color-gray-3);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Add a vertical "Rood" line between the two languages */
+@media (min-width: 50rem) {
+  .english {
+    border-left: 1px solid var(--sl-color-orange-low);
+  }
+}

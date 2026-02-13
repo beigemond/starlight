@@ -1,102 +1,79 @@
 {
   "metadata": {
     "act": 1,
-    "scene": 1,
-    "slug": "the-fall-and-the-seeds",
-    "title": "The Fall and the Promise of the Seeds",
-    "summary": "Adam and Eve are expelled from Paradise. As Adam nears death, he sends his son Seth to the gates of Eden to ask for the Oil of Mercy. Instead, Seth is given three seeds from the Tree of Knowledge to place in Adam's mouth.",
-    "speakers": ["GOD", "ADAM", "EVE", "SETH", "ANGEL"],
-    "on_stage": ["GOD", "ADAM", "EVE", "SETH", "ANGEL"],
-    "setting": "The Gates of Paradise / The Toilsome Earth",
-    "geographic_link_id": "ST_JUST_PLAN",
-    "themes": ["Exile", "Toil", "Promise", "Origins"],
-    "props": ["The Apple", "The Spade", "The Three Seeds"],
-    "page_break": true,
-    "scene_visual": "expulsion_and_seeds.png",
-    "sound_fx": "wind_on_barren_earth.mp3"
+    "scene": 3,
+    "slug": "seths-journey-to-paradise",
+    "title": "The Vision of Seth and the Three Seeds",
+    "summary": "The dying Adam sends Seth to Eden. Seth sees three visions of the Tree of Knowledge: first as dry, then with a serpent, and finally with a child. The Angel gives him three seeds to place in Adam's mouth.",
+    "speakers": ["ADAM", "SETH", "ANGEL"],
+    "setting": "The Gates of Eden",
+    "props": ["The Three Seeds", "The Vision of the Child"]
   },
   "content": [
     {
-      "id": "act1-s1-l1",
-      "type": "direction",
-      "cornish": "An Tas a dhewl Adam hag Eva yn-mes a Baradhys.",
-      "narrative": "The Father casts Adam and Eve out of Paradise.",
-      "ref": "OM 340a",
-      "marginalia": "This is the 'Anken' (Sorrow) that begins the human journey.",
-      "sound_fx": "heavy_gates_closing.wav"
-    },
-    {
-      "id": "act1-s1-l2",
+      "id": "act1-s3-l1",
       "type": "speech",
       "character_id": "ADAM",
-      "station": "The Barren Earth",
-      "cornish": "A Arluth, tru! My yw dregis; / Anken bras yw dhybm degis.",
-      "narrative": "O Lord, alas! I am rejected; / Great sorrow is brought to me.",
-      "ref": "OM 350-351",
-      "delivery": "Despairing, heavy",
-      "rhyme_scheme": "A",
-      "metrical_stress": ". / . / . / . /",
-      "glossary_links": {
-        "anken": "grief",
-        "dregis": "rejected/driven out"
-      },
-      "prefiguration": {
-        "target_act": 4,
-        "target_ref": "RD 355",
-        "description": "Adam's despair here is mirrored by his joy when Christ leads him back into Paradise in Act IV."
-      }
+      "cornish": "Seth, ow mab, ke dhe'n porthow / a Baradhys heb dregynn.",
+      "narrative": "Seth, my son, go to the gates / of Paradise without delay.",
+      "ref": "OM 700-701"
     },
     {
-      "id": "act1-s1-l3",
-      "type": "speech",
-      "character_id": "GOD",
-      "station": "Celum (Heaven)",
-      "cornish": "Yn dhowr ha hwys ty a dheber / dhy'th vara, kyn fylly'th her.",
-      "narrative": "In water and sweat thou shalt eat / thy bread, though thy strength fail.",
-      "ref": "OM 380-381",
-      "font_style": "small-caps",
-      "delivery": "Stern, divine",
-      "rhyme_scheme": "B",
-      "metrical_stress": "/ . / . / . /",
-      "line_analysis": [
-        {"word": "hwys", "analysis": "Noun, masc. 'sweat'"},
-        {"word": "deber", "analysis": "Verb, 2nd pers sing. 'shalt eat'"}
-      ]
-    },
-    {
-      "id": "act1-s1-l4",
+      "id": "act1-s3-l2",
       "type": "direction",
-      "cornish": "Adam ow kallegy Seth dhe dhorow Paradhys.",
-      "narrative": "Adam, old and dying, calls Seth to the doors of Paradise.",
-      "ref": "OM 680a",
-      "notes": "The transition from the 'Exile' to the 'Promise of the Wood'."
+      "character_id": "DIRECTION",
+      "cornish": "Seth a dhe dhe'n porthow hag a vyth a-ji.",
+      "narrative": "Seth goes to the gates and looks within.",
+      "ref": "OM 760a"
     },
     {
-      "id": "act1-s1-l5",
+      "id": "act1-s3-l3",
       "type": "speech",
       "character_id": "SETH",
-      "cornish": "Tas, my a dhe dhe'n porthow; / Oyl a versy yw ow dhow.",
-      "narrative": "Father, I go to the gates; / The Oil of Mercy is my desire.",
-      "ref": "OM 710-711",
-      "delivery": "Dutiful, youthful",
-      "rhyme_scheme": "C",
-      "glossary_links": {
-        "oyl_mersy": "oil of mercy"
-      }
+      "cornish": "My a wel gwedhen vras, / Mes hy bren yw segh ha noeth.",
+      "narrative": "I see a great tree, / But its wood is dry and bare.",
+      "ref": "OM 775-776",
+      "notes": "The 'Dry Tree' represents the state of the world after the Fall."
     },
     {
-      "id": "act1-s1-l6",
+      "id": "act1-s3-l4",
       "type": "direction",
-      "cornish": "An El a rhydh tri hasen dhe Seth rag y das.",
-      "narrative": "The Angel gives three seeds to Seth for his father.",
-      "ref": "OM 820a",
-      "marginalia": "The Cedar, Cypress, and Pine. These are the physical origin of the Rood.",
-      "sound_fx": "ethereal_shimmer.wav",
-      "prefiguration": {
-        "target_act": 3,
-        "target_ref": "PC 2620",
-        "description": "These three seeds will grow into the one tree used for the Cross, reuniting the wood of the Fall with the wood of Salvation."
-      }
+      "character_id": "DIRECTION",
+      "cornish": "Seth a vyth an tressa kwerth hag a wel Mab-Den yn top an wedhen.",
+      "narrative": "Seth looks a third time and sees the Son of Man in the top of the tree.",
+      "ref": "OM 805a"
+    },
+    {
+      "id": "act1-s3-l5",
+      "type": "speech",
+      "character_id": "ANGEL",
+      "cornish": "An Mab a welys yw an Oyl a Versy / a feth an jowl ha dhaswul bewnans.",
+      "narrative": "The Son thou sawest is the Oil of Mercy / who shall defeat the devil and restore life.",
+      "ref": "OM 812-813"
+    },
+    {
+      "id": "act1-s3-l6",
+      "type": "direction",
+      "character_id": "DIRECTION",
+      "cornish": "An El a rhydh tri hasen dhe Seth.",
+      "narrative": "The Angel gives three seeds to Seth.",
+      "ref": "OM 820a"
+    },
+    {
+      "id": "act1-s3-l7",
+      "type": "speech",
+      "character_id": "ANGEL",
+      "cornish": "Gor an re-ma yn anow dha das / pan vo marow ha klysys.",
+      "narrative": "Put these in the mouth of thy father / when he is dead and buried.",
+      "ref": "OM 825-826"
+    },
+    {
+      "id": "act1-s3-l8",
+      "type": "speech",
+      "character_id": "ADAM",
+      "cornish": "Benigys re bo an Tas! / Nans yw dhywrys ow bewnans.",
+      "narrative": "Blessed be the Father! / Now my life is accomplished.",
+      "ref": "OM 915-916"
     }
   ]
 }

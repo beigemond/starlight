@@ -1,0 +1,12 @@
+---
+title: Linguistic Glossary
+description: Middle Cornish terms used in the Legend of the Rood.
+---
+
+import glossary from '../../../data/glossary.json';
+
+| Term | Translation | Definition |
+| :--- | :--- | :--- |
+{glossary.terms.map(t => (
+  `| **${t.word}** | ${t.translation} | ${t.definition} |`
+)).join('\n')}
