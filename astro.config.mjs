@@ -6,11 +6,14 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'Legend of the Rood',
-      // 1. If you haven't created this file yet, comment this line out with //
-      // customCss: ['./src/styles/custom.css'], 
-      social: {
-        github: 'https://github.com/your-username/legend-of-the-rood',
-      },
+      // Updated Social Syntax for v0.33.0+
+      social: [
+        { 
+          label: 'GitHub', 
+          link: 'https://github.com/your-username/legend-of-the-rood',
+          icon: 'github' 
+        }
+      ],
       sidebar: [
         { label: 'Home', link: '/' },
         {
