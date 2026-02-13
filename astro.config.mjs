@@ -6,14 +6,10 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'Legend of the Rood',
-      // Updated Social Syntax for v0.33.0+
-      social: [
-        { 
-          label: 'GitHub', 
-          link: 'https://github.com/your-username/legend-of-the-rood',
-          icon: 'github' 
-        }
-      ],
+      // The Shorthand syntax is much more stable across versions:
+      social: {
+        github: 'https://github.com/your-username/legend-of-the-rood',
+      },
       sidebar: [
         { label: 'Home', link: '/' },
         {
